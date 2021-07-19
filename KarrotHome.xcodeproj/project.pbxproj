@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		009CCAC026A5B1B800192F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCABF26A5B1B800192F04 /* AppDelegate.swift */; };
-		009CCAC226A5B1B800192F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAC126A5B1B800192F04 /* SceneDelegate.swift */; };
 		009CCAC926A5B1BB00192F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009CCAC826A5B1BB00192F04 /* Assets.xcassets */; };
 		009CCACC26A5B1BB00192F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */; };
 		009CCAD726A5B1BB00192F04 /* KarrotHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */; };
 		009CCAE226A5B1BB00192F04 /* KarrotHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */; };
+		009CCAF326A5B3FD00192F04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAF226A5B3FD00192F04 /* HomeViewController.swift */; };
+		009CCAF626A5B94800192F04 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAF526A5B94800192F04 /* UITableView+.swift */; };
+		009CCAF826A5B9F100192F04 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAF726A5B9F100192F04 /* HomeTableViewCell.swift */; };
+		009CCAFB26A5BAA800192F04 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 009CCAFA26A5BAA800192F04 /* Then */; };
+		009CCAFE26A5C1D900192F04 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 009CCAFD26A5C1D900192F04 /* SnapKit */; };
+		009CCB0026A5D5C100192F04 /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAFF26A5D5C100192F04 /* Image+.swift */; };
+		009CCB0326A5D61100192F04 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0226A5D61100192F04 /* SFSymbol.swift */; };
+		009CCB0526A5DD8C00192F04 /* Formatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0426A5DD8C00192F04 /* Formatter+.swift */; };
+		009CCB0726A6105000192F04 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0626A6105000192F04 /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,6 @@
 /* Begin PBXFileReference section */
 		009CCABC26A5B1B800192F04 /* KarrotHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarrotHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009CCABF26A5B1B800192F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		009CCAC126A5B1B800192F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		009CCAC826A5B1BB00192F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009CCACB26A5B1BB00192F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009CCACD26A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +52,13 @@
 		009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrotHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrotHomeUITests.swift; sourceTree = "<group>"; };
 		009CCAE326A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009CCAF226A5B3FD00192F04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		009CCAF526A5B94800192F04 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		009CCAF726A5B9F100192F04 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		009CCAFF26A5D5C100192F04 /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		009CCB0226A5D61100192F04 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
+		009CCB0426A5DD8C00192F04 /* Formatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+.swift"; sourceTree = "<group>"; };
+		009CCB0626A6105000192F04 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009CCAFB26A5BAA800192F04 /* Then in Frameworks */,
+				009CCAFE26A5C1D900192F04 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +111,9 @@
 		009CCABE26A5B1B800192F04 /* KarrotHome */ = {
 			isa = PBXGroup;
 			children = (
+				009CCB0126A5D60600192F04 /* Common */,
+				009CCAF426A5B93300192F04 /* Extension */,
+				009CCAF126A5B3F000192F04 /* View */,
 				009CCAF026A5B1D800192F04 /* Resources */,
 				009CCAEF26A5B1CF00192F04 /* Supporting Files */,
 			);
@@ -124,7 +143,6 @@
 			children = (
 				009CCACD26A5B1BB00192F04 /* Info.plist */,
 				009CCABF26A5B1B800192F04 /* AppDelegate.swift */,
-				009CCAC126A5B1B800192F04 /* SceneDelegate.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,6 +154,34 @@
 				009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		009CCAF126A5B3F000192F04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				009CCAF226A5B3FD00192F04 /* HomeViewController.swift */,
+				009CCAF726A5B9F100192F04 /* HomeTableViewCell.swift */,
+				009CCB0426A5DD8C00192F04 /* Formatter+.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		009CCAF426A5B93300192F04 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				009CCAF526A5B94800192F04 /* UITableView+.swift */,
+				009CCAFF26A5D5C100192F04 /* Image+.swift */,
+				009CCB0626A6105000192F04 /* UIView+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		009CCB0126A5D60600192F04 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				009CCB0226A5D61100192F04 /* SFSymbol.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +200,10 @@
 			dependencies = (
 			);
 			name = KarrotHome;
+			packageProductDependencies = (
+				009CCAFA26A5BAA800192F04 /* Then */,
+				009CCAFD26A5C1D900192F04 /* SnapKit */,
+			);
 			productName = KarrotHome;
 			productReference = 009CCABC26A5B1B800192F04 /* KarrotHome.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +275,10 @@
 				Base,
 			);
 			mainGroup = 009CCAB326A5B1B800192F04;
+			packageReferences = (
+				009CCAF926A5BAA800192F04 /* XCRemoteSwiftPackageReference "Then" */,
+				009CCAFC26A5C1D900192F04 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 009CCABD26A5B1B800192F04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,8 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009CCAF626A5B94800192F04 /* UITableView+.swift in Sources */,
 				009CCAC026A5B1B800192F04 /* AppDelegate.swift in Sources */,
-				009CCAC226A5B1B800192F04 /* SceneDelegate.swift in Sources */,
+				009CCB0526A5DD8C00192F04 /* Formatter+.swift in Sources */,
+				009CCB0326A5D61100192F04 /* SFSymbol.swift in Sources */,
+				009CCB0726A6105000192F04 /* UIView+.swift in Sources */,
+				009CCB0026A5D5C100192F04 /* Image+.swift in Sources */,
+				009CCAF826A5B9F100192F04 /* HomeTableViewCell.swift in Sources */,
+				009CCAF326A5B3FD00192F04 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +653,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		009CCAF926A5BAA800192F04 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+		009CCAFC26A5C1D900192F04 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		009CCAFA26A5BAA800192F04 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 009CCAF926A5BAA800192F04 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		009CCAFD26A5C1D900192F04 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 009CCAFC26A5C1D900192F04 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 009CCAB426A5B1B800192F04 /* Project object */;
 }
