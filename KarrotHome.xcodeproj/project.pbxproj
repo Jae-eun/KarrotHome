@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009CCAC026A5B1B800192F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCABF26A5B1B800192F04 /* AppDelegate.swift */; };
+		009CCAC226A5B1B800192F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAC126A5B1B800192F04 /* SceneDelegate.swift */; };
+		009CCAC926A5B1BB00192F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009CCAC826A5B1BB00192F04 /* Assets.xcassets */; };
+		009CCACC26A5B1BB00192F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */; };
+		009CCAD726A5B1BB00192F04 /* KarrotHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */; };
+		009CCAE226A5B1BB00192F04 /* KarrotHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009CCAD326A5B1BB00192F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009CCAB426A5B1B800192F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009CCABB26A5B1B800192F04;
+			remoteInfo = KarrotHome;
+		};
+		009CCADE26A5B1BB00192F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009CCAB426A5B1B800192F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009CCABB26A5B1B800192F04;
+			remoteInfo = KarrotHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009CCABC26A5B1B800192F04 /* KarrotHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarrotHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009CCABF26A5B1B800192F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		009CCAC126A5B1B800192F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		009CCAC826A5B1BB00192F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009CCACB26A5B1BB00192F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		009CCACD26A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009CCAD226A5B1BB00192F04 /* KarrotHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrotHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrotHomeTests.swift; sourceTree = "<group>"; };
+		009CCAD826A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrotHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrotHomeUITests.swift; sourceTree = "<group>"; };
+		009CCAE326A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009CCAB926A5B1B800192F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009CCACF26A5B1BB00192F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009CCADA26A5B1BB00192F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009CCAB326A5B1B800192F04 = {
+			isa = PBXGroup;
+			children = (
+				009CCABE26A5B1B800192F04 /* KarrotHome */,
+				009CCAD526A5B1BB00192F04 /* KarrotHomeTests */,
+				009CCAE026A5B1BB00192F04 /* KarrotHomeUITests */,
+				009CCABD26A5B1B800192F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009CCABD26A5B1B800192F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009CCABC26A5B1B800192F04 /* KarrotHome.app */,
+				009CCAD226A5B1BB00192F04 /* KarrotHomeTests.xctest */,
+				009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009CCABE26A5B1B800192F04 /* KarrotHome */ = {
+			isa = PBXGroup;
+			children = (
+				009CCAF026A5B1D800192F04 /* Resources */,
+				009CCAEF26A5B1CF00192F04 /* Supporting Files */,
+			);
+			path = KarrotHome;
+			sourceTree = "<group>";
+		};
+		009CCAD526A5B1BB00192F04 /* KarrotHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */,
+				009CCAD826A5B1BB00192F04 /* Info.plist */,
+			);
+			path = KarrotHomeTests;
+			sourceTree = "<group>";
+		};
+		009CCAE026A5B1BB00192F04 /* KarrotHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */,
+				009CCAE326A5B1BB00192F04 /* Info.plist */,
+			);
+			path = KarrotHomeUITests;
+			sourceTree = "<group>";
+		};
+		009CCAEF26A5B1CF00192F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				009CCACD26A5B1BB00192F04 /* Info.plist */,
+				009CCABF26A5B1B800192F04 /* AppDelegate.swift */,
+				009CCAC126A5B1B800192F04 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009CCAF026A5B1D800192F04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				009CCAC826A5B1BB00192F04 /* Assets.xcassets */,
+				009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009CCABB26A5B1B800192F04 /* KarrotHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009CCAE626A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHome" */;
+			buildPhases = (
+				009CCAB826A5B1B800192F04 /* Sources */,
+				009CCAB926A5B1B800192F04 /* Frameworks */,
+				009CCABA26A5B1B800192F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarrotHome;
+			productName = KarrotHome;
+			productReference = 009CCABC26A5B1B800192F04 /* KarrotHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009CCAD126A5B1BB00192F04 /* KarrotHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009CCAE926A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHomeTests" */;
+			buildPhases = (
+				009CCACE26A5B1BB00192F04 /* Sources */,
+				009CCACF26A5B1BB00192F04 /* Frameworks */,
+				009CCAD026A5B1BB00192F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009CCAD426A5B1BB00192F04 /* PBXTargetDependency */,
+			);
+			name = KarrotHomeTests;
+			productName = KarrotHomeTests;
+			productReference = 009CCAD226A5B1BB00192F04 /* KarrotHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		009CCADC26A5B1BB00192F04 /* KarrotHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009CCAEC26A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHomeUITests" */;
+			buildPhases = (
+				009CCAD926A5B1BB00192F04 /* Sources */,
+				009CCADA26A5B1BB00192F04 /* Frameworks */,
+				009CCADB26A5B1BB00192F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009CCADF26A5B1BB00192F04 /* PBXTargetDependency */,
+			);
+			name = KarrotHomeUITests;
+			productName = KarrotHomeUITests;
+			productReference = 009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009CCAB426A5B1B800192F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					009CCABB26A5B1B800192F04 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					009CCAD126A5B1BB00192F04 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 009CCABB26A5B1B800192F04;
+					};
+					009CCADC26A5B1BB00192F04 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 009CCABB26A5B1B800192F04;
+					};
+				};
+			};
+			buildConfigurationList = 009CCAB726A5B1B800192F04 /* Build configuration list for PBXProject "KarrotHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009CCAB326A5B1B800192F04;
+			productRefGroup = 009CCABD26A5B1B800192F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009CCABB26A5B1B800192F04 /* KarrotHome */,
+				009CCAD126A5B1BB00192F04 /* KarrotHomeTests */,
+				009CCADC26A5B1BB00192F04 /* KarrotHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009CCABA26A5B1B800192F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009CCACC26A5B1BB00192F04 /* LaunchScreen.storyboard in Resources */,
+				009CCAC926A5B1BB00192F04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009CCAD026A5B1BB00192F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009CCADB26A5B1BB00192F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009CCAB826A5B1B800192F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009CCAC026A5B1B800192F04 /* AppDelegate.swift in Sources */,
+				009CCAC226A5B1B800192F04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009CCACE26A5B1BB00192F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009CCAD726A5B1BB00192F04 /* KarrotHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009CCAD926A5B1BB00192F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009CCAE226A5B1BB00192F04 /* KarrotHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009CCAD426A5B1BB00192F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009CCABB26A5B1B800192F04 /* KarrotHome */;
+			targetProxy = 009CCAD326A5B1BB00192F04 /* PBXContainerItemProxy */;
+		};
+		009CCADF26A5B1BB00192F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009CCABB26A5B1B800192F04 /* KarrotHome */;
+			targetProxy = 009CCADE26A5B1BB00192F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009CCACB26A5B1BB00192F04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009CCAE426A5B1BB00192F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		009CCAE526A5B1BB00192F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009CCAE726A5B1BB00192F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78643UTJ5;
+				INFOPLIST_FILE = "KarrotHome/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		009CCAE826A5B1BB00192F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78643UTJ5;
+				INFOPLIST_FILE = "KarrotHome/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		009CCAEA26A5B1BB00192F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78643UTJ5;
+				INFOPLIST_FILE = KarrotHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarrotHome.app/KarrotHome";
+			};
+			name = Debug;
+		};
+		009CCAEB26A5B1BB00192F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78643UTJ5;
+				INFOPLIST_FILE = KarrotHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarrotHome.app/KarrotHome";
+			};
+			name = Release;
+		};
+		009CCAED26A5B1BB00192F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78643UTJ5;
+				INFOPLIST_FILE = KarrotHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarrotHome;
+			};
+			name = Debug;
+		};
+		009CCAEE26A5B1BB00192F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78643UTJ5;
+				INFOPLIST_FILE = KarrotHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarrotHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009CCAB726A5B1B800192F04 /* Build configuration list for PBXProject "KarrotHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009CCAE426A5B1BB00192F04 /* Debug */,
+				009CCAE526A5B1BB00192F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009CCAE626A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009CCAE726A5B1BB00192F04 /* Debug */,
+				009CCAE826A5B1BB00192F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009CCAE926A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009CCAEA26A5B1BB00192F04 /* Debug */,
+				009CCAEB26A5B1BB00192F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009CCAEC26A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009CCAED26A5B1BB00192F04 /* Debug */,
+				009CCAEE26A5B1BB00192F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009CCAB426A5B1B800192F04 /* Project object */;
+}
