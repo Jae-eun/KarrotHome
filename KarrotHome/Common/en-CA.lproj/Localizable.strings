@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  KarrotHome
+
+  Created by 이재은 on 2021/07/21.
+  
+*/
+
+"Reserved" = "Reserved";
+"Sold" = "Sold";
+"Free" = "Free";
+"Boosted" = "Boosted";
+"Neighbourhood settings" = "Neighbourhood settings";
+"Advertising" = "Advertising";
+"For Sale" = "For Sale";
+"Language settings" = "Language settings";
+"Reset" = "Reset";
+"Korean" = "Korean";
+"English (UK)" = "English (UK)";
+"English (Canada)" = "English (Canada)";
+"English" = "English";
+"Japanese" = "Japanese";
+"Invalid path." = "Invalid path.";
+"Invalid data." = "Invalid data.";
+"Data decoding failed." = "Data decoding failed.";
