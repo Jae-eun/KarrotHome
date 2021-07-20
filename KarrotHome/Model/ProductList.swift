@@ -24,11 +24,11 @@ struct Product: Decodable {
     /// 주소
     let address: String
     /// 게시 시간
-    let postingTime: String
+    let postingTime: Date
     /// 끌올 여부
     let isNew: Bool
     /// 거래 상태
-    let state: String
+    let state: SaleState
     /// 가격
     let price: Int
     /// 댓글 개수
