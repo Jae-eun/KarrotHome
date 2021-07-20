@@ -1,0 +1,237 @@
+{
+    "totalCount": 20,
+    "products": [
+        {
+            "id": 1,
+            "imageUrl": "",
+            "title": "캔버스백",
+            "address": "홍제동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 5000,
+            "commentCount": 1,
+            "likeCount": 2
+        },
+        {
+            "id": 2,
+            "imageUrl": "",
+            "title": "그릇",
+            "address": "홍제동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 1000
+        },
+        {
+            "id": 3,
+            "imageUrl": "",
+            "title": "샤오미 실내 자전거",
+            "address": "은평구 녹번동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 150000,
+            "commentCount": 3,
+            "likeCount": 1
+        },
+        {
+            "id": 4,
+            "imageUrl": "",
+            "title": "방탄소년단 앨범",
+            "address": "홍은제2동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 5000,
+            "commentCount": 1
+        },
+        {
+            "id": 5,
+            "imageUrl": "",
+            "title": "락토핏 유산균",
+            "address": "서대문구 북아현동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 4000
+        },
+        {
+            "id": 3,
+            "imageUrl": "",
+            "title": "커블체어 판매합니다",
+            "address": "홍지동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 20000,
+            "likeCount": 1
+        },
+        {
+            "id": 6,
+            "imageUrl": "",
+            "title": "샤오미 보조배터리 20000mAh",
+            "address": "불광동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 8000,
+            "commentCount": 1,
+            "likeCount": 5
+        },
+        {
+            "id": 7,
+            "imageUrl": "",
+            "title": "코치가방 판매합니다",
+            "address": "종로구 사직동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 250000
+        },
+        {
+            "id": 8,
+            "imageUrl": "",
+            "title": "로레알 헤어스프레이 2개",
+            "address": "종로구 구기동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 9000,
+            "commentCount": 2,
+            "likeCount": 1
+        },
+        {
+            "id": 9,
+            "imageUrl": "",
+            "title": "애플워치6 44mm 그래파이트 스테인레스 GPS+셀룰러+애플케어플러스",
+            "address": "부암동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 750000,
+            "likeCount": 2
+        },
+        {
+            "id": 10,
+            "imageUrl": "",
+            "title": "(새상품)코베아 파이어캠프 캠핑화로대",
+            "address": "홍제제1동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 95000
+        },
+        {
+            "id": 11,
+            "imageUrl": "",
+            "title": "스타벅스 쿨러(새상품)",
+            "address": "서대문구 충현동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 38000,
+            "commentCount": 1,
+        },
+        {
+            "id": 12,
+            "imageUrl": "",
+            "title": "보만 와플메이커",
+            "address": "연희동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 9600,
+            "commentCount": 1,
+            "likeCount": 1
+        },
+        {
+            "id": 13,
+            "imageUrl": "",
+            "title": "베어브릭 400% 스타워즈 퍼스트오더 스톰트루퍼",
+            "address": "서대문구 신촌동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 200000
+        },
+        {
+            "id": 14,
+            "imageUrl": "",
+            "title": "양키캔들 스몰 캔들워머 화이트",
+            "address": "은평구 응암제1동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 10000,
+            "likeCount": 1
+        },
+        {
+            "id": 15,
+            "imageUrl": "",
+            "title": "스타벅스 리유저블 콜드컵 710ml",
+            "address": "홍제동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 13000,
+            "commentCount": 1
+        },
+        {
+            "id": 16,
+            "imageUrl": "",
+            "title": "애플펜슬 2세대 새상품 팝니다",
+            "address": "홍은동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 150000
+        },
+        {
+            "id": 17,
+            "imageUrl": "",
+            "title": "기린 인형",
+            "address": "은평구 녹번동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 47000,
+            "commentCount": 2,
+            "likeCount": 1
+        },
+        {
+            "id": 18,
+            "imageUrl": "",
+            "title": "체크 스커트",
+            "address": "홍제동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 5000,
+            "commentCount": 1,
+            "likeCount": 4
+        },
+        {
+            "id": 19,
+            "imageUrl": "",
+            "title": "자라 쉬폰 블라우스",
+            "address": "연희동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 15000
+        },
+        {
+            "id": 20,
+            "imageUrl": "",
+            "title": "카카오 프렌즈 라이언 손톱깎기 세트",
+            "address": "서대문구 신촌동",
+            "postingTime": "2021-07-20T13:10:10",
+            "isNew": false,
+            "state": "normal",
+            "price": 3000,
+            "commentCount": 5,
+            "likeCount": 1
+        }
+    ]
+}

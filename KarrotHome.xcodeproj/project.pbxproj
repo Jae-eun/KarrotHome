@@ -21,6 +21,12 @@
 		009CCB0326A5D61100192F04 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0226A5D61100192F04 /* SFSymbol.swift */; };
 		009CCB0526A5DD8C00192F04 /* Formatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0426A5DD8C00192F04 /* Formatter+.swift */; };
 		009CCB0726A6105000192F04 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0626A6105000192F04 /* UIView+.swift */; };
+		009CCB0926A61A0800192F04 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0826A61A0800192F04 /* UIColor+.swift */; };
+		009CCB0B26A69E4200192F04 /* ProductList.json in Resources */ = {isa = PBXBuildFile; fileRef = 009CCB0A26A69E4200192F04 /* ProductList.json */; };
+		009CCB0D26A6A05A00192F04 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB0C26A6A05A00192F04 /* ProductList.swift */; };
+		009CCB1126A6A5B000192F04 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB1026A6A5B000192F04 /* JSONManager.swift */; };
+		009CCB1326A6A68700192F04 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB1226A6A68700192F04 /* HomeService.swift */; };
+		009CCB1526A6B5DE00192F04 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB1426A6B5DE00192F04 /* ServiceError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		009CCB0226A5D61100192F04 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		009CCB0426A5DD8C00192F04 /* Formatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+.swift"; sourceTree = "<group>"; };
 		009CCB0626A6105000192F04 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		009CCB0826A61A0800192F04 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		009CCB0A26A69E4200192F04 /* ProductList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductList.json; sourceTree = "<group>"; };
+		009CCB0C26A6A05A00192F04 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		009CCB1026A6A5B000192F04 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		009CCB1226A6A68700192F04 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		009CCB1426A6B5DE00192F04 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +123,10 @@
 		009CCABE26A5B1B800192F04 /* KarrotHome */ = {
 			isa = PBXGroup;
 			children = (
+				009CCB0E26A6A56E00192F04 /* Model */,
 				009CCB0126A5D60600192F04 /* Common */,
 				009CCAF426A5B93300192F04 /* Extension */,
+				009CCB0F26A6A59C00192F04 /* Service */,
 				009CCAF126A5B3F000192F04 /* View */,
 				009CCAF026A5B1D800192F04 /* Resources */,
 				009CCAEF26A5B1CF00192F04 /* Supporting Files */,
@@ -152,6 +166,7 @@
 			children = (
 				009CCAC826A5B1BB00192F04 /* Assets.xcassets */,
 				009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */,
+				009CCB0A26A69E4200192F04 /* ProductList.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				009CCAF526A5B94800192F04 /* UITableView+.swift */,
+				009CCB0826A61A0800192F04 /* UIColor+.swift */,
 				009CCAFF26A5D5C100192F04 /* Image+.swift */,
 				009CCB0626A6105000192F04 /* UIView+.swift */,
 				009CCB0426A5DD8C00192F04 /* Formatter+.swift */,
@@ -180,8 +196,26 @@
 			isa = PBXGroup;
 			children = (
 				009CCB0226A5D61100192F04 /* SFSymbol.swift */,
+				009CCB1426A6B5DE00192F04 /* ServiceError.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		009CCB0E26A6A56E00192F04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				009CCB0C26A6A05A00192F04 /* ProductList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		009CCB0F26A6A59C00192F04 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				009CCB1026A6A5B000192F04 /* JSONManager.swift */,
+				009CCB1226A6A68700192F04 /* HomeService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				009CCACC26A5B1BB00192F04 /* LaunchScreen.storyboard in Resources */,
+				009CCB0B26A69E4200192F04 /* ProductList.json in Resources */,
 				009CCAC926A5B1BB00192F04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,9 +357,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				009CCAF626A5B94800192F04 /* UITableView+.swift in Sources */,
+				009CCB1126A6A5B000192F04 /* JSONManager.swift in Sources */,
+				009CCB0D26A6A05A00192F04 /* ProductList.swift in Sources */,
 				009CCAC026A5B1B800192F04 /* AppDelegate.swift in Sources */,
 				009CCB0526A5DD8C00192F04 /* Formatter+.swift in Sources */,
 				009CCB0326A5D61100192F04 /* SFSymbol.swift in Sources */,
+				009CCB1326A6A68700192F04 /* HomeService.swift in Sources */,
+				009CCB0926A61A0800192F04 /* UIColor+.swift in Sources */,
+				009CCB1526A6B5DE00192F04 /* ServiceError.swift in Sources */,
 				009CCB0726A6105000192F04 /* UIView+.swift in Sources */,
 				009CCB0026A5D5C100192F04 /* Image+.swift in Sources */,
 				009CCAF826A5B9F100192F04 /* HomeTableViewCell.swift in Sources */,
@@ -426,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -481,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
