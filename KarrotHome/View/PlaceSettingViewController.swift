@@ -18,7 +18,6 @@ protocol PlaceSettingVCDelegate: AnyObject {
 final class PlaceSettingViewController: UIViewController {
 
     // MARK: - UIComponent
-
     private let backView: UIView = UIView()
     private lazy var tableView = UITableView().then {
         $0.dataSource = self
@@ -32,13 +31,11 @@ final class PlaceSettingViewController: UIViewController {
     }
 
     // MARK: - Property
-
     weak var delegate: PlaceSettingVCDelegate?
     private var places: [String] = []
     private var topAnchor: CGFloat?
 
     // MARK: - Initialize
-
     init(_ topAnchor: CGFloat) {
         super.init(nibName: nil, bundle: nil)
 
@@ -51,7 +48,6 @@ final class PlaceSettingViewController: UIViewController {
     }
 
     // MARK: - Life Cycle
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -60,7 +56,6 @@ final class PlaceSettingViewController: UIViewController {
     }
 
     // MARK: - Function
-
     private func setupUI() {
         view.addSubview(backView)
         view.addSubview(tableView)
@@ -75,7 +70,8 @@ final class PlaceSettingViewController: UIViewController {
         tableView.snp.makeConstraints {
             $0.top.equalToSuperview().offset(topAnchor!)
             $0.leading.equalTo(16)
-            $0.height.width.equalTo(130)
+            $0.height.equalTo(130)
+            $0.width.equalTo(190)
         }
     }
 
@@ -84,7 +80,7 @@ final class PlaceSettingViewController: UIViewController {
         UserManager.placesKey.forEach {
             places.append(Place(rawValue: $0)?.name ?? "")
         }
-        places.append("내 동네 설정하기")
+        places.append("Neighbourhood settings".localized)
     }
 
     /// 화면 탭했을 때 닫는 제스처 추가
@@ -95,7 +91,7 @@ final class PlaceSettingViewController: UIViewController {
         view.addGestureRecognizer(tapGesture)
     }
 
-    /// 화면 닫기 
+    /// 화면 닫기
     @objc func closePopup() {
         delegate?.dismissPopup()
         dismiss(animated: true, completion: nil)
@@ -125,7 +121,7 @@ extension PlaceSettingViewController: UITableViewDataSource {
         } else {
             cell.textLabel?.textColor = .gray
         }
-        cell.textLabel?.font = .boldSystemFont(ofSize: 12)
+        cell.textLabel?.font = .boldSystemFont(ofSize: 13)
         cell.textLabel?.text = place
 
         return cell

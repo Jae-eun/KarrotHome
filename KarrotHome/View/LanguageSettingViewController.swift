@@ -16,7 +16,7 @@ protocol LanguageSettingVCDelegate: AnyObject {
 
 final class LanguageSettingViewController: UIViewController {
 
-    // MARK: - UIComponents
+    // MARK: - UIComponent
     private lazy var tableView = UITableView().then {
         $0.dataSource = self
         $0.delegate = self
@@ -25,14 +25,6 @@ final class LanguageSettingViewController: UIViewController {
         $0.separatorStyle = .none
         $0.registerCell(withType: UITableViewCell.self)
         $0.tableFooterView = UIView(frame: .zero)
-    }
-    private lazy var resetButton = UIBarButtonItem(title: "Reset".localized,
-                                                 style: .plain,
-                                                 target: self,
-                                                 action: #selector(push))
-
-    @objc func push() {
-        print("PUsh")
     }
 
     // MARK: - Property
@@ -58,24 +50,19 @@ final class LanguageSettingViewController: UIViewController {
     // MARK: - Function
     private func setupUI() {
         self.view.addSubview(tableView)
-
+        tableView.backgroundColor = .systemBackground
         setConstraint()
     }
 
     private func setConstraint() {
         tableView.snp.makeConstraints {
-            $0.edges.equalTo(view.safeAreaLayoutGuide)
+            $0.edges.equalToSuperview()
         }
     }
 
     private func setNavigation() {
         self.title = "Language settings".localized
         self.navigationController?.navigationBar.topItem?.title = ""
-        setBarButtonItem()
-    }
-
-    private func setBarButtonItem() {
-        self.navigationItem.rightBarButtonItem = resetButton
     }
 }
 
@@ -91,7 +78,7 @@ extension LanguageSettingViewController: UITableViewDataSource {
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
 
-        cell.textLabel?.text = Language.allCases[indexPath.row].name.localized
+        cell.textLabel?.text = Language.allCases[indexPath.row].name
         return cell
     }
 }
