@@ -199,10 +199,10 @@
 		009CCAF026A5B1D800192F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				009CCB0A26A69E4200192F04 /* ProductListHongje.json */,
 				009CCB3D26A83CAA00192F04 /* ProductListSunae1.json */,
 				009CCAC826A5B1BB00192F04 /* Assets.xcassets */,
 				009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */,
-				009CCB0A26A69E4200192F04 /* ProductListHongje.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
