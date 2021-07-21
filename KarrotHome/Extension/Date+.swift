@@ -8,7 +8,7 @@
 import Foundation
 
 extension Date {
-
+    /// 현재 시간과의 상대적인 시간을 표시함 
     func relativeDate() -> String {
         let formatter = RelativeDateTimeFormatter()
         formatter.dateTimeStyle = .named

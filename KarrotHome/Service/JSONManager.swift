@@ -10,7 +10,7 @@ import Foundation
 protocol JSONManagerType: AnyObject {
     typealias DecodingResult<T> = (result: T?, error: ServiceError?)
 
-    /// 주어진 데이터를 특정 타입으로 디코딩
+    /// 주어진 JSON 데이터를 특정 타입으로 디코딩하여 가져옴
     func fetchJSONObject<T: Decodable>(to type: T.Type,
                             resourceName: String) -> DecodingResult<T>
 }
@@ -22,7 +22,6 @@ final class JSONManager: JSONManagerType {
 
     // MARK: - Fucntion
 
-    /// json 파싱하여 데이터를 가져옴
     func fetchJSONObject<T: Decodable>(to type: T.Type,
                             resourceName: String) -> DecodingResult<T> {
         guard let path = Bundle.main.path(forResource: resourceName,

@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-
+    /// 지역화된 문자열 반환
     var localized: String {
         let languageCode = UserManager.languageKey
         guard let path = Bundle.main.path(forResource: languageCode, ofType: "lproj")

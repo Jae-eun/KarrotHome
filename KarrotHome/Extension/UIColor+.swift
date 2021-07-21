@@ -8,6 +8,8 @@
 import UIKit
 
 extension UIColor {
+    /// 메인 주황색
     static let karrotMain = UIColor(named: "KarrotMain")
+    /// 서브 초록색
     static let karrotGreen = UIColor(named: "KarrotGreen")
 }

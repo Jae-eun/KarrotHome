@@ -14,7 +14,7 @@ final class ImageManager {
 }
 
 extension UIImageView {
-
+    /// url로 이미지 다운로드
     func loadImage(with imgURL: String) -> URLSessionDataTask? {
         let cacheKey: NSString = NSString(string: imgURL)
         if let cachedImage = ImageManager.cache.object(forKey: cacheKey) {

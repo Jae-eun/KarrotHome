@@ -24,13 +24,9 @@ final class HomeService: HomeServiceType {
     }
 
     func fetchProductList() -> [Product] {
-        let resourceName = getCurrentResourceName()
+        let resourceName = "ProductList\(UserManager.currentPlaceKey)"
         productList = jsonManager?.fetchJSONObject(to: ProductList.self,
                                                    resourceName: resourceName).result
         return productList?.products ?? []
-    }
-
-    private func getCurrentResourceName() -> String {
-        return "ProductList\(UserManager.currentPlaceKey)"
     }
 }

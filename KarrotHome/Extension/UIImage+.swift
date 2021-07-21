@@ -8,11 +8,12 @@
 import UIKit
 
 extension UIImage {
-
+    /// SFSymbol 이름으로 이미지 생성
     convenience init?(symbol: SFSymbol) {
         self.init(systemName: symbol.rawValue)
     }
 
+    /// 이미지 사이즈 변경
     func resize(newWidth: CGFloat) -> UIImage {
         let scale = newWidth / self.size.width
         let newHeight = self.size.height * scale

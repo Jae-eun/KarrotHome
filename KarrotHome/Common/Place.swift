@@ -15,6 +15,7 @@ enum Place: String {
 }
 
 extension Place {
+    /// 동네 일반 이름
     var name: String {
         switch self {
         case .Hongje:

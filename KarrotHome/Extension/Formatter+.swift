@@ -8,6 +8,7 @@
 import Foundation
 
 extension Formatter {
+    /// 십진법 스타일로 쉼표 구분
     static let withSeparator: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.groupingSeparator = ","
@@ -17,6 +18,7 @@ extension Formatter {
 }
 
 extension Numeric {
+    /// 가격 형태로 반환 (0원일 경우, "Free")
     var formattedPriceWithSeparator: String {
         if self == 0 {
             return "Free".localized
