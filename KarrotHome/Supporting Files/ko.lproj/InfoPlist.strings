@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  KarrotHome
+
+  Created by 이재은 on 2021/07/21.
+  
+*/
+
+CFBundleDisplayName = "당근홈";
