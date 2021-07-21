@@ -1,0 +1,232 @@
+{
+    "totalCount": 20,
+    "products": [
+        {
+            "id": 1,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126509941-7afbe82a-871a-4e3e-aa36-5a51b8c22e05.png",
+            "title": "개발 관련 서적 각 5천원씩",
+            "address": "수내1동",
+            "postingTime": "2021-07-21T23:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 5000,
+            "likeCount": 1
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510085-7e3a443d-6388-4074-b1e1-39981ff4f459.png",
+            "title": "엘지 42인치 LED TV",
+            "address": "수내1동",
+            "postingTime": "2021-07-12T21:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 190000
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510187-46b07d89-8408-4d83-825f-f6038e9928ed.png",
+            "title": "마자용 인형",
+            "address": "정자동",
+            "postingTime": "2021-07-20T01:10:00Z",
+            "isNew": true,
+            "state": "reserved",
+            "price": 4000,
+            "likeCount": 1
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510475-85a5c5b9-8fb8-4105-8b97-5df2a0c58abc.png",
+            "title": "소파",
+            "address": "서현2동",
+            "postingTime": "2021-07-17T01:10:00Z",
+            "isNew": false,
+            "state": "sold",
+            "price": 0,
+            "commentCount": 2
+        },
+        {
+            "id": 5,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510419-ddbebdef-ebe7-47d7-853f-94be0d94bb0c.png",
+            "title": "가이타이너 에어프라이어 새제품",
+            "address": "정자2동",
+            "postingTime": "2021-07-21T19:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 4000
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510616-f5d39db3-665a-435a-b286-df56ab9fe70d.png",
+            "title": "티파니앤코 다이아몬드 바이 더 야드 싱글 다이아몬드 펜던트",
+            "address": "정자동",
+            "postingTime": "2021-05-20T01:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 400000,
+            "likeCount": 2
+        },
+        {
+            "id": 6,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510787-8e039987-6108-42bc-8dea-fd1ab978ce7b.png",
+            "title": "나이키 운동화 240",
+            "address": "수내1동",
+            "postingTime": "2021-07-19T01:10:00Z",
+            "isNew": true,
+            "state": "sold",
+            "price": 8000,
+            "commentCount": 2,
+            "likeCount": 3
+        },
+        {
+            "id": 7,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510852-1af8e6f4-19e6-4293-bd15-26d6be80e91f.png",
+            "title": "겐조 선글라스",
+            "address": "수내2동",
+            "postingTime": "2021-07-18T01:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 250000
+        },
+        {
+            "id": 8,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510990-cb76d038-7f65-4ae3-bcfd-bbe481184853.png",
+            "title": "조르디 인형",
+            "address": "정자동",
+            "postingTime": "2021-07-21T19:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 9000,
+            "commentCount": 1,
+            "likeCount": 1
+        },
+        {
+            "id": 9,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511491-1a254ed5-7404-4083-8100-a88fa2ce4e5a.png",
+            "title": "산세베리아 화분",
+            "address": "서현2동",
+            "postingTime": "2021-07-21T08:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 5000
+        },
+        {
+            "id": 10,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511164-e195f861-3524-41cd-9a06-ed297efd3e70.png",
+            "title": "아이폰 11pro 폰케이스 나눔해요",
+            "address": "백현동",
+            "postingTime": "2021-07-21T11:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 0,
+            "likeCount": 1
+        },
+        {
+            "id": 11,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511268-39dd2c43-41e7-4b7c-9170-20b2cabde7a9.png",
+            "title": "디자인 벤처스 책상세트 판매",
+            "address": "삼평동",
+            "postingTime": "2021-07-21T22:10:00Z",
+            "isNew": true,
+            "state": "reserved",
+            "price": 150000,
+            "likeCount": 2,
+        },
+        {
+            "id": 12,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511439-19e8a017-7071-442c-9fe2-78145636080e.png",
+            "title": "미니 다용도 청도자기",
+            "address": "수내동",
+            "postingTime": "2021-07-20T18:10:00Z",
+            "isNew": false,
+            "state": "reserved",
+            "price": 20000,
+            "commentCount": 3
+        },
+        {
+            "id": 13,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511685-652ea235-33f1-4d14-a938-c81473d4a755.png",
+            "title": "루이비통 미니포쉐트 크리스마스",
+            "address": "",
+            "postingTime": "2021-07-19T01:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 200000
+        },
+        {
+            "id": 14,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511791-2d2498c2-be7f-4d53-bbb4-2eaff8fa9070.png",
+            "title": "BHC 뿌링클, 치즈볼, 콜라 판매해요.",
+            "address": "수내1동",
+            "postingTime": "2021-07-21T21:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 19000,
+            "likeCount": 2
+        },
+        {
+            "id": 15,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511830-0ed9717d-d130-4f2a-894b-eefc4eb4ee7e.png",
+            "title": "거의 새거 아디다스 후드집업 M",
+            "address": "이매동",
+            "postingTime": "2021-07-18T01:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 10000
+        },
+        {
+            "id": 16,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126511923-f1abee1d-cbe8-4cb5-92ff-730eeb274cee.png",
+            "title": "프라다 페브릭 하이힐 구두",
+            "address": "수내3동",
+            "postingTime": "2021-07-21T12:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 170000
+        },
+        {
+            "id": 17,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126512069-88d58bc7-bd4b-491c-a2a5-746bcea03ee1.png",
+            "title": "블루투스 스피커 판매합니다",
+            "address": "야탑동",
+            "postingTime": "2021-07-21T16:10:00Z",
+            "isNew": true,
+            "state": "reserved",
+            "price": 3000,
+            "commentCount": 1
+        },
+        {
+            "id": 18,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126512195-1e30554b-ec17-4cd6-b014-ea9045e29db7.png",
+            "title": "(상태좋음) 까사미아 월셀프 화이트",
+            "address": "백현동",
+            "postingTime": "2021-07-21T15:10:00Z",
+            "isNew": false,
+            "state": "sale",
+            "price": 45000,
+            "likeCount": 3
+        },
+        {
+            "id": 19,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126512427-f8dbca7c-adc7-4ddd-b175-d21cfb44ae10.png",
+            "title": "LG 울트라PC그램 노트북 (A급) 파우치 포함",
+            "address": "수내1동",
+            "postingTime": "2021-07-20T18:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 650000,
+            "commentCount": 2,
+            "likeCount": 1
+        },
+        {
+            "id": 20,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126512542-f54394fc-0a1d-4c9a-bf6b-6fef5e3c4694.png",
+            "title": "로웰 공기청정기 7way",
+            "address": "수내1동",
+            "postingTime": "2021-07-21T13:10:00Z",
+            "isNew": true,
+            "state": "reserved",
+            "price": 80000,
+            "commentCount": 1
+        }
+    ]
+}
