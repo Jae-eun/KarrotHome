@@ -12,7 +12,8 @@ extension Date {
     func relativeDate() -> String {
         let formatter = RelativeDateTimeFormatter()
         formatter.dateTimeStyle = .named
-        formatter.locale = Locale(identifier: "ko_KR")
+        let languageCode = UserManager.languageKey
+        formatter.locale = Locale(identifier: languageCode)
         let relativeDate = formatter.localizedString(for: self, relativeTo: Date())
         return relativeDate
     }

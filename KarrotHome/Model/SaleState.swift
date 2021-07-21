@@ -13,11 +13,11 @@ enum SaleState: String, Decodable {
     var localizedDescription: String {
         switch self {
         case .sale:
-            return "Sale".localized()
+            return "Sale".localized
         case .reserved:
-            return "Reserved".localized()
+            return "Reserved".localized
         case  .sold:
-            return "Sold".localized()
+            return "Sold".localized
         }
     }
 }

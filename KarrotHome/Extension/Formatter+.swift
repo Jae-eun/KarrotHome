@@ -19,7 +19,7 @@ extension Formatter {
 extension Numeric {
     var formattedPriceWithSeparator: String {
         if self == 0 {
-            return "Free".localized()
+            return "Free".localized
         } else {
             return "\(Formatter.withSeparator.string(for: self) ?? "")원"
         }
