@@ -29,5 +29,14 @@ struct UserDefault<T> {
 
 final class UserManager {
     @UserDefault(key: "languageKey", defaultValue: "ko")
+    /// 설정한 언어
     static var languageKey: String
+
+    @UserDefault(key: "placesKey", defaultValue: [])
+    /// 등록한 동네 목록
+    static var placesKey: [String]
+    
+    @UserDefault(key: "currentPlaceKey", defaultValue: "")
+    /// 현재 설정한 동네
+    static var currentPlaceKey: String
 }
