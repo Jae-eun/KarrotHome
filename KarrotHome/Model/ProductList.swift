@@ -8,8 +8,9 @@
 import Foundation
 
 struct ProductList: Decodable {
-    /// 상품 목록 개수
+    /// 상품 목록 총 개수
     let totalCount: Int
+    /// 상품 목록
     let products: [Product]
 }
 

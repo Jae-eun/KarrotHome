@@ -10,7 +10,8 @@ import UIKit
 import Then
 
 protocol LanguageSettingVCDelegate: AnyObject {
-    func changeLanguageSetting()
+    /// 언어 설정 변경 처리
+    func changedLanguageSetting()
 }
 
 final class LanguageSettingViewController: UIViewController {
@@ -69,9 +70,6 @@ final class LanguageSettingViewController: UIViewController {
 
     private func setNavigation() {
         self.title = "Language settings".localized
-        self.navigationController?.navigationBar.backgroundColor = .white
-        self.navigationController?.navigationBar.isTranslucent = false
-        self.navigationController?.navigationBar.tintColor = .black
         self.navigationController?.navigationBar.topItem?.title = ""
         setBarButtonItem()
     }
@@ -94,7 +92,6 @@ extension LanguageSettingViewController: UITableViewDataSource {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
 
         cell.textLabel?.text = Language.allCases[indexPath.row].name.localized
-        
         return cell
     }
 }
@@ -107,7 +104,7 @@ extension LanguageSettingViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: false)
 
         UserManager.languageKey = Language.allCases[indexPath.row].code
-        delegate?.changeLanguageSetting()
+        delegate?.changedLanguageSetting()
         self.navigationController?.popViewController(animated: true)
     }
 }
