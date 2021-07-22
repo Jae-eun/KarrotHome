@@ -20,7 +20,7 @@ extension ServiceError {
         case .invalidPath:
             return "Invalid path.".localized
         case .invalidData:
-            return "Invalid data".localized
+            return "Invalid data.".localized
         case .failedDecoding:
             return "Data decoding failed.".localized
         }

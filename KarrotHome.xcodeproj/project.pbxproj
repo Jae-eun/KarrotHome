@@ -10,8 +10,6 @@
 		009CCAC026A5B1B800192F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCABF26A5B1B800192F04 /* AppDelegate.swift */; };
 		009CCAC926A5B1BB00192F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009CCAC826A5B1BB00192F04 /* Assets.xcassets */; };
 		009CCACC26A5B1BB00192F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CCACA26A5B1BB00192F04 /* LaunchScreen.storyboard */; };
-		009CCAD726A5B1BB00192F04 /* KarrotHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */; };
-		009CCAE226A5B1BB00192F04 /* KarrotHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */; };
 		009CCAF326A5B3FD00192F04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAF226A5B3FD00192F04 /* HomeViewController.swift */; };
 		009CCAF626A5B94800192F04 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAF526A5B94800192F04 /* UITableView+.swift */; };
 		009CCAF826A5B9F100192F04 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCAF726A5B9F100192F04 /* HomeTableViewCell.swift */; };
@@ -40,17 +38,19 @@
 		009CCB3C26A8393500192F04 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB3B26A8393500192F04 /* UIViewController+.swift */; };
 		009CCB3E26A83CAB00192F04 /* ProductListSunae1.json in Resources */ = {isa = PBXBuildFile; fileRef = 009CCB3D26A83CAA00192F04 /* ProductListSunae1.json */; };
 		009CCB4026A83CF300192F04 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB3F26A83CF300192F04 /* Place.swift */; };
+		009CCB4426A8C86000192F04 /* HomeServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB4326A8C85F00192F04 /* HomeServiceTest.swift */; };
+		009CCB4626A8CABA00192F04 /* MockJSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB4526A8CAB900192F04 /* MockJSONManager.swift */; };
+		009CCB4C26A8DFD700192F04 /* FormatterExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB4B26A8DFD700192F04 /* FormatterExtensionTest.swift */; };
+		009CCB4E26A8E03200192F04 /* LanguageEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB4D26A8E03200192F04 /* LanguageEnumTest.swift */; };
+		009CCB5026A8E05100192F04 /* PlaceEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB4F26A8E05100192F04 /* PlaceEnumTest.swift */; };
+		009CCB5226A8E0E400192F04 /* SaleStateEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB5126A8E0E400192F04 /* SaleStateEnumTest.swift */; };
+		009CCB5426A8E0F800192F04 /* ServiceErrorEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB5326A8E0F800192F04 /* ServiceErrorEnumTest.swift */; };
+		009CCB5626A8E10800192F04 /* StringExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB5526A8E10800192F04 /* StringExtensionTest.swift */; };
+		009CCB5A26A8E13000192F04 /* UIViewExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CCB5926A8E13000192F04 /* UIViewExtensionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		009CCAD326A5B1BB00192F04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 009CCAB426A5B1B800192F04 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 009CCABB26A5B1B800192F04;
-			remoteInfo = KarrotHome;
-		};
-		009CCADE26A5B1BB00192F04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 009CCAB426A5B1B800192F04 /* Project object */;
 			proxyType = 1;
@@ -66,11 +66,7 @@
 		009CCACB26A5B1BB00192F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009CCACD26A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009CCAD226A5B1BB00192F04 /* KarrotHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrotHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrotHomeTests.swift; sourceTree = "<group>"; };
 		009CCAD826A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrotHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrotHomeUITests.swift; sourceTree = "<group>"; };
-		009CCAE326A5B1BB00192F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009CCAF226A5B3FD00192F04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		009CCAF526A5B94800192F04 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
 		009CCAF726A5B9F100192F04 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -105,6 +101,15 @@
 		009CCB3B26A8393500192F04 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		009CCB3D26A83CAA00192F04 /* ProductListSunae1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProductListSunae1.json; sourceTree = "<group>"; };
 		009CCB3F26A83CF300192F04 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		009CCB4326A8C85F00192F04 /* HomeServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTest.swift; sourceTree = "<group>"; };
+		009CCB4526A8CAB900192F04 /* MockJSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJSONManager.swift; sourceTree = "<group>"; };
+		009CCB4B26A8DFD700192F04 /* FormatterExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterExtensionTest.swift; sourceTree = "<group>"; };
+		009CCB4D26A8E03200192F04 /* LanguageEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageEnumTest.swift; sourceTree = "<group>"; };
+		009CCB4F26A8E05100192F04 /* PlaceEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEnumTest.swift; sourceTree = "<group>"; };
+		009CCB5126A8E0E400192F04 /* SaleStateEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleStateEnumTest.swift; sourceTree = "<group>"; };
+		009CCB5326A8E0F800192F04 /* ServiceErrorEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrorEnumTest.swift; sourceTree = "<group>"; };
+		009CCB5526A8E10800192F04 /* StringExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTest.swift; sourceTree = "<group>"; };
+		009CCB5926A8E13000192F04 /* UIViewExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,13 +129,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009CCADA26A5B1BB00192F04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -139,7 +137,6 @@
 			children = (
 				009CCABE26A5B1B800192F04 /* KarrotHome */,
 				009CCAD526A5B1BB00192F04 /* KarrotHomeTests */,
-				009CCAE026A5B1BB00192F04 /* KarrotHomeUITests */,
 				009CCABD26A5B1B800192F04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,7 +146,6 @@
 			children = (
 				009CCABC26A5B1B800192F04 /* KarrotHome.app */,
 				009CCAD226A5B1BB00192F04 /* KarrotHomeTests.xctest */,
-				009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,19 +168,11 @@
 		009CCAD526A5B1BB00192F04 /* KarrotHomeTests */ = {
 			isa = PBXGroup;
 			children = (
-				009CCAD626A5B1BB00192F04 /* KarrotHomeTests.swift */,
+				009CCB4826A8CAF900192F04 /* Test */,
+				009CCB4726A8CAF300192F04 /* Mock */,
 				009CCAD826A5B1BB00192F04 /* Info.plist */,
 			);
 			path = KarrotHomeTests;
-			sourceTree = "<group>";
-		};
-		009CCAE026A5B1BB00192F04 /* KarrotHomeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				009CCAE126A5B1BB00192F04 /* KarrotHomeUITests.swift */,
-				009CCAE326A5B1BB00192F04 /* Info.plist */,
-			);
-			path = KarrotHomeUITests;
 			sourceTree = "<group>";
 		};
 		009CCAEF26A5B1CF00192F04 /* Supporting Files */ = {
@@ -273,6 +261,29 @@
 			path = Localize;
 			sourceTree = "<group>";
 		};
+		009CCB4726A8CAF300192F04 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				009CCB4526A8CAB900192F04 /* MockJSONManager.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		009CCB4826A8CAF900192F04 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				009CCB4326A8C85F00192F04 /* HomeServiceTest.swift */,
+				009CCB4B26A8DFD700192F04 /* FormatterExtensionTest.swift */,
+				009CCB4D26A8E03200192F04 /* LanguageEnumTest.swift */,
+				009CCB4F26A8E05100192F04 /* PlaceEnumTest.swift */,
+				009CCB5126A8E0E400192F04 /* SaleStateEnumTest.swift */,
+				009CCB5326A8E0F800192F04 /* ServiceErrorEnumTest.swift */,
+				009CCB5526A8E10800192F04 /* StringExtensionTest.swift */,
+				009CCB5926A8E13000192F04 /* UIViewExtensionTest.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,24 +326,6 @@
 			productReference = 009CCAD226A5B1BB00192F04 /* KarrotHomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		009CCADC26A5B1BB00192F04 /* KarrotHomeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 009CCAEC26A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHomeUITests" */;
-			buildPhases = (
-				009CCAD926A5B1BB00192F04 /* Sources */,
-				009CCADA26A5B1BB00192F04 /* Frameworks */,
-				009CCADB26A5B1BB00192F04 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				009CCADF26A5B1BB00192F04 /* PBXTargetDependency */,
-			);
-			name = KarrotHomeUITests;
-			productName = KarrotHomeUITests;
-			productReference = 009CCADD26A5B1BB00192F04 /* KarrotHomeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -346,10 +339,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					009CCAD126A5B1BB00192F04 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 009CCABB26A5B1B800192F04;
-					};
-					009CCADC26A5B1BB00192F04 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 009CCABB26A5B1B800192F04;
 					};
@@ -378,7 +367,6 @@
 			targets = (
 				009CCABB26A5B1B800192F04 /* KarrotHome */,
 				009CCAD126A5B1BB00192F04 /* KarrotHomeTests */,
-				009CCADC26A5B1BB00192F04 /* KarrotHomeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -398,13 +386,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		009CCAD026A5B1BB00192F04 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		009CCADB26A5B1BB00192F04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,15 +429,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009CCAD726A5B1BB00192F04 /* KarrotHomeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		009CCAD926A5B1BB00192F04 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				009CCAE226A5B1BB00192F04 /* KarrotHomeUITests.swift in Sources */,
+				009CCB5626A8E10800192F04 /* StringExtensionTest.swift in Sources */,
+				009CCB4426A8C86000192F04 /* HomeServiceTest.swift in Sources */,
+				009CCB4626A8CABA00192F04 /* MockJSONManager.swift in Sources */,
+				009CCB4E26A8E03200192F04 /* LanguageEnumTest.swift in Sources */,
+				009CCB4C26A8DFD700192F04 /* FormatterExtensionTest.swift in Sources */,
+				009CCB5426A8E0F800192F04 /* ServiceErrorEnumTest.swift in Sources */,
+				009CCB5A26A8E13000192F04 /* UIViewExtensionTest.swift in Sources */,
+				009CCB5026A8E05100192F04 /* PlaceEnumTest.swift in Sources */,
+				009CCB5226A8E0E400192F04 /* SaleStateEnumTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,11 +448,6 @@
 			isa = PBXTargetDependency;
 			target = 009CCABB26A5B1B800192F04 /* KarrotHome */;
 			targetProxy = 009CCAD326A5B1BB00192F04 /* PBXContainerItemProxy */;
-		};
-		009CCADF26A5B1BB00192F04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 009CCABB26A5B1B800192F04 /* KarrotHome */;
-			targetProxy = 009CCADE26A5B1BB00192F04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -711,46 +687,6 @@
 			};
 			name = Release;
 		};
-		009CCAED26A5B1BB00192F04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R78643UTJ5;
-				INFOPLIST_FILE = KarrotHomeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHomeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KarrotHome;
-			};
-			name = Debug;
-		};
-		009CCAEE26A5B1BB00192F04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R78643UTJ5;
-				INFOPLIST_FILE = KarrotHomeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.pilvi.KarrotHomeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KarrotHome;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -777,15 +713,6 @@
 			buildConfigurations = (
 				009CCAEA26A5B1BB00192F04 /* Debug */,
 				009CCAEB26A5B1BB00192F04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		009CCAEC26A5B1BB00192F04 /* Build configuration list for PBXNativeTarget "KarrotHomeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				009CCAED26A5B1BB00192F04 /* Debug */,
-				009CCAEE26A5B1BB00192F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 {
-    "totalCount": 20,
+    "totalCount": 21,
     "products": [
         {
             "id": 1,
@@ -55,17 +55,6 @@
             "isNew": false,
             "state": "reserved",
             "price": 4000
-        },
-        {
-            "id": 3,
-            "imageUrl": "https://user-images.githubusercontent.com/12438429/126385780-a7ef26d0-dc5b-4e3d-bf53-0050f6a718bf.png",
-            "title": "커블체어 판매합니다",
-            "address": "홍지동",
-            "postingTime": "2021-05-20T01:10:00Z",
-            "isNew": true,
-            "state": "sale",
-            "price": 20000,
-            "likeCount": 1
         },
         {
             "id": 6,
@@ -231,6 +220,17 @@
             "state": "reserved",
             "price": 3000,
             "commentCount": 5,
+            "likeCount": 1
+        },
+        {
+            "id": 21,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126385780-a7ef26d0-dc5b-4e3d-bf53-0050f6a718bf.png",
+            "title": "커블체어 판매합니다",
+            "address": "홍지동",
+            "postingTime": "2021-05-20T01:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 20000,
             "likeCount": 1
         }
     ]

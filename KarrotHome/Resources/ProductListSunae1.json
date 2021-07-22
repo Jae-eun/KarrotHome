@@ -1,5 +1,5 @@
 {
-    "totalCount": 20,
+    "totalCount": 21,
     "products": [
         {
             "id": 1,
@@ -53,17 +53,6 @@
             "isNew": false,
             "state": "sale",
             "price": 4000
-        },
-        {
-            "id": 3,
-            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510616-f5d39db3-665a-435a-b286-df56ab9fe70d.png",
-            "title": "티파니앤코 다이아몬드 바이 더 야드 싱글 다이아몬드 펜던트",
-            "address": "정자동",
-            "postingTime": "2021-05-20T01:10:00Z",
-            "isNew": true,
-            "state": "sale",
-            "price": 400000,
-            "likeCount": 2
         },
         {
             "id": 6,
@@ -227,6 +216,17 @@
             "state": "reserved",
             "price": 80000,
             "commentCount": 1
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://user-images.githubusercontent.com/12438429/126510616-f5d39db3-665a-435a-b286-df56ab9fe70d.png",
+            "title": "티파니앤코 다이아몬드 바이 더 야드 싱글 다이아몬드 펜던트",
+            "address": "정자동",
+            "postingTime": "2021-05-20T01:10:00Z",
+            "isNew": true,
+            "state": "sale",
+            "price": 400000,
+            "likeCount": 2
         }
     ]
 }

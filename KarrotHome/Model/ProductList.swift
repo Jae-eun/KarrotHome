@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ProductList: Decodable {
+struct ProductList: Decodable, Equatable {
     /// 상품 목록 총 개수
     let totalCount: Int
     /// 상품 목록
@@ -15,7 +15,7 @@ struct ProductList: Decodable {
 }
 
 // MARK: - Product
-struct Product: Decodable {
+struct Product: Decodable, Equatable {
     /// 상품 id
     let id: Int
     /// 이미지 URL

@@ -23,7 +23,11 @@ extension Numeric {
         if self == 0 {
             return "Free".localized
         } else {
-            return "\(Formatter.withSeparator.string(for: self) ?? "")원"
+            if let price = Formatter.withSeparator.string(for: self) {
+                return "\(price)원"
+            } else {
+                return "\(self)"
+            }
         }
     }
 }
