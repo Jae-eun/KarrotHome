@@ -11,11 +11,10 @@ extension String {
     /// 지역화된 문자열 반환
     var localized: String {
         let languageCode = UserManager.languageKey
-        guard let path = Bundle.main.path(forResource: languageCode, ofType: "lproj")
-        else {
-            return self
-        }
-        let bundle = Bundle(path: path)
-        return bundle?.localizedString(forKey: self, value: nil, table: nil) ?? self
+        let localizedString = Bundle.main.path(forResource: languageCode,
+                                               ofType: "lproj")
+            .flatMap { Bundle(path: $0) }
+            .flatMap { $0.localizedString(forKey: self, value: nil, table: nil)}
+        return localizedString ?? self
     }
 }

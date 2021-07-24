@@ -30,15 +30,6 @@ final class LanguageSettingViewController: UIViewController {
     // MARK: - Property
     weak var delegate: LanguageSettingVCDelegate?
 
-    // MARK: - Initialize
-    init() {
-        super.init(nibName: nil, bundle: nil)
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,7 +67,7 @@ extension LanguageSettingViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "LanguageCell")
 
         cell.textLabel?.text = Language.allCases[indexPath.row].name
         return cell

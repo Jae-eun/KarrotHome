@@ -33,13 +33,14 @@ final class PlaceSettingViewController: UIViewController {
     // MARK: - Property
     weak var delegate: PlaceSettingVCDelegate?
     private var places: [String] = []
-    private var topAnchor: CGFloat?
+    private let topAnchor: CGFloat?
 
     // MARK: - Initialize
     init(_ topAnchor: CGFloat) {
+        self.topAnchor = topAnchor
+
         super.init(nibName: nil, bundle: nil)
 
-        self.topAnchor = topAnchor
         setPlacesData()
     }
 

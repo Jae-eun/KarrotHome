@@ -20,7 +20,7 @@ extension Formatter {
 extension Numeric {
     /// 가격 형태로 반환 (0원일 경우, "Free")
     var formattedPriceWithSeparator: String {
-        if self == 0 {
+        if self == .zero {
             return "Free".localized
         } else {
             if let price = Formatter.withSeparator.string(for: self) {

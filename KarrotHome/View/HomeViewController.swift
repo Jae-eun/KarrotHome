@@ -22,7 +22,7 @@ final class HomeViewController: UIViewController {
         $0.registerCell(withType: HomeTableViewCell.self)
         $0.tableFooterView = UIView(frame: .zero)
     }
-    private lazy var shadowView = UIView().then {
+    private let shadowView = UIView().then {
         $0.setShadow(opacity: 0.2, offSet: CGSize(width: 1, height: 3), radius: 2)
         $0.isUserInteractionEnabled = false
     }
@@ -40,6 +40,7 @@ final class HomeViewController: UIViewController {
         $0.contentEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 8)
         $0.imageEdgeInsets = .init(top: 0, left: -8, bottom: 0, right: 0)
         $0.addTarget(self, action: #selector(movePlaceSettingView), for: .touchUpInside)
+        $0.titleLabel?.sizeToFit()
         $0.translatesAutoresizingMaskIntoConstraints = false
     }
     private lazy var languageButton
@@ -47,27 +48,22 @@ final class HomeViewController: UIViewController {
                           style: .plain,
                           target: self,
                           action: #selector(moveLanguageSettingVC))
-    private lazy var  searchBarButton = UIBarButtonItem().then {
+    private let searchBarButton = UIBarButtonItem().then {
         $0.image = UIImage(symbol: .magnifyingglass)
     }
-    private lazy var  categoryBarButton = UIBarButtonItem().then {
+    private let categoryBarButton = UIBarButtonItem().then {
         $0.image = UIImage(symbol: .listDash)
     }
-    private lazy var  noticeBarButton = UIBarButtonItem().then {
+    private let noticeBarButton = UIBarButtonItem().then {
         $0.image = UIImage(symbol: .bell)
     }
 
     // MARK: - Property
     private let homeService = HomeService()
-    private var products: [Product] = []
-
-    // MARK: - Initialize
-    init() {
-        super.init(nibName: nil, bundle: nil)
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    private var products: [Product] = [] {
+        didSet {
+            tableView.reloadData()
+        }
     }
 
     // MARK: - Life Cycle
@@ -151,7 +147,6 @@ final class HomeViewController: UIViewController {
     @objc private func pullToRefresh(_ sender: UIRefreshControl) {
         sender.endRefreshing()
         products = homeService.fetchProductList(UserManager.currentPlaceKey)
-        tableView.reloadData()
     }
 
     /// 언어 설정 화면으로 이동
@@ -209,12 +204,10 @@ extension HomeViewController: PlaceSettingVCDelegate {
     func changedMyPlace() {
         leftBarButton.setTitle(Place(rawValue: UserManager.currentPlaceKey)?.name,
                                for: .normal)
-        leftBarButton.titleLabel?.sizeToFit()
 
         products = homeService.fetchProductList(UserManager.currentPlaceKey)
-        tableView.scrollToRow(at: IndexPath(row: 0, section: 0),
+        tableView.scrollToRow(at: IndexPath(row: .zero, section: .zero),
                               at: .top,
                               animated: true)
-        tableView.reloadData()
     }
 }
