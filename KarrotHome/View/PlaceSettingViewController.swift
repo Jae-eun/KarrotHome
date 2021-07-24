@@ -33,7 +33,8 @@ final class PlaceSettingViewController: UIViewController {
     // MARK: - Property
     weak var delegate: PlaceSettingVCDelegate?
     private var places: [String] = []
-    private let topAnchor: CGFloat?
+    private let topAnchor: CGFloat!
+    private var currentPlaceIndex: Int?
 
     // MARK: - Initialize
     init(_ topAnchor: CGFloat) {
@@ -69,7 +70,7 @@ final class PlaceSettingViewController: UIViewController {
             $0.edges.equalTo(view)
         }
         tableView.snp.makeConstraints {
-            $0.top.equalToSuperview().offset(topAnchor!)
+            $0.top.equalToSuperview().offset(topAnchor)
             $0.leading.equalTo(16)
             $0.height.equalTo(130)
             $0.width.equalTo(190)
@@ -119,6 +120,7 @@ extension PlaceSettingViewController: UITableViewDataSource {
 
         if place == Place(rawValue: UserManager.currentPlaceKey)?.name {
             cell.textLabel?.textColor = .label
+            currentPlaceIndex = indexPath.row
         } else {
             cell.textLabel?.textColor = .gray
         }
@@ -134,7 +136,8 @@ extension PlaceSettingViewController: UITableViewDataSource {
 extension PlaceSettingViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath: IndexPath) {
-        if indexPath.row != places.count - 1 {
+        if indexPath.row != places.count - 1
+            && indexPath.row != currentPlaceIndex {
             UserManager.currentPlaceKey = UserManager.placesKey[indexPath.row]
             delegate?.changedMyPlace()
         }
