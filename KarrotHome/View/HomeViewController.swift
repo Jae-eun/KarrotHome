@@ -33,7 +33,7 @@ final class HomeViewController: UIViewController {
         $0.setCornerRadius(30)
     }
     private lazy var leftBarButton = UIButton().then {
-        $0.setTitle(Place(rawValue: UserManager.currentPlaceKey)?.name, for: .normal)
+        $0.setTitle(Place(UserManager.currentPlaceKey).name, for: .normal)
         $0.titleLabel?.font = .boldSystemFont(ofSize: 17)
         $0.setTitleColor(.label, for: .normal)
         $0.setImage(UIImage(symbol: .chevronDown), for: .normal)
@@ -153,7 +153,7 @@ final class HomeViewController: UIViewController {
     @objc func moveLanguageSettingVC() {
         let languageSettingVC = LanguageSettingViewController()
         languageSettingVC.delegate = self
-        self.navigationController?.pushViewController(languageSettingVC, animated: true)
+        navigationController?.pushViewController(languageSettingVC, animated: true)
     }
 }
 
@@ -202,7 +202,7 @@ extension HomeViewController: PlaceSettingVCDelegate {
     }
 
     func changedMyPlace() {
-        leftBarButton.setTitle(Place(rawValue: UserManager.currentPlaceKey)?.name,
+        leftBarButton.setTitle(Place(UserManager.currentPlaceKey).name,
                                for: .normal)
 
         products = homeService.fetchProductList(UserManager.currentPlaceKey)

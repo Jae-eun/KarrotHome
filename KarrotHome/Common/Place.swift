@@ -24,4 +24,8 @@ extension Place {
             return "수내1동"
         }
     }
+
+    init(_ rawValue: String) {
+        self = Place(rawValue: rawValue) ?? .Hongje
+    }
 }

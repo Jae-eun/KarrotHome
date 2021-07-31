@@ -40,7 +40,7 @@ final class LanguageSettingViewController: UIViewController {
 
     // MARK: - Function
     private func setupUI() {
-        self.view.addSubview(tableView)
+        view.addSubview(tableView)
         tableView.backgroundColor = .systemBackground
         setConstraint()
     }

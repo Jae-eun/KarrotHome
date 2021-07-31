@@ -80,7 +80,7 @@ final class PlaceSettingViewController: UIViewController {
     /// places 데이터 설정
     private func setPlacesData() {
         UserManager.placesKey.forEach {
-            places.append(Place(rawValue: $0)?.name ?? "")
+            places.append(Place($0).name)
         }
         places.append("Neighbourhood settings".localized)
     }
@@ -118,7 +118,7 @@ extension PlaceSettingViewController: UITableViewDataSource {
 
         let place = places[indexPath.row]
 
-        if place == Place(rawValue: UserManager.currentPlaceKey)?.name {
+        if place == Place(UserManager.currentPlaceKey).name {
             cell.textLabel?.textColor = .label
             currentPlaceIndex = indexPath.row
         } else {
